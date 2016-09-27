@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get '/about', to: 'pages#about'
 
-  get '/blog', to: 'pages#blog'
+  get '/yelp', to: 'pages#yelp'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
