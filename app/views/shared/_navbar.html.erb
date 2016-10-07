@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-primary">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -8,14 +8,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to image_tag("gotoguytrans.png", style: "width: 185px"), root_path, class: "navbar-brand" %>
+      <%= link_to image_tag("dp_logo.jpg", style: "width: 185px"), root_path, class: "navbar-brand" %>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="<%= yield(:home)%>"><%= link_to "Home", root_path %></li>
         <li class="<%= yield(:about)%>"><%= link_to "About", about_path %></li>
-        <li class="<%= yield(:yelp)%>"><%= link_to "Yelp Reviews", yelp_path %></li>
+        <li class="<%= yield(:jobs)%>"><%= link_to "Jobs", jobs_path %></li>
       </ul>
     </div>
   </div>
