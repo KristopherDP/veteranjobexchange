@@ -1,2 +1,10 @@
 <% provide(:jobs, "active") %>
 <% provide(:title, "Jobs") %>
+
+<div class="col-md-10">
+  <div class="list-group">
+    <% @dp_jobs.each do |cat| %>
+    <a href="<% cat %>" class="list-group-item"><%= cat.text %></a>
+    <% end %>
+  </div>
+</div>
