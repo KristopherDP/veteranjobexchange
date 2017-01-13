@@ -3,9 +3,14 @@
 
 @import 'navbar';
 
-.jumbotron {
+.jumbotron  {
   background-color: white;
-
+  .container {
+    background-color: #141414;
+    p {
+      color: white;
+    }
+  }
 }
 
 .row .col-lg-12#about-info {
@@ -35,4 +40,9 @@
   width: 0%auto;max-width: 1024px;
   margin: 0 auto;
   text-align: center;
+}
+
+#jofdavlogo {
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
